@@ -1,0 +1,1072 @@
+{
+  "intro": {
+    "text": "Welcome to Regular Polygons and Reasoning for Grade 7! Today, we'll explore what makes a polygon 'regular', uncover the secrets behind interior and exterior angles, and reason our way through some exciting shape puzzles. Get ready for an amazing adventure!",
+    "style": "statement",
+    "ok": true
+  },
+  "wonder": {
+    "text": "Maya noticed the honeycomb in her science book was made of perfect six-sided cells — every side and every angle looked exactly the same. Then she spotted a stop sign on the way to school: eight equal sides, eight equal angles. Why do these shapes look so perfectly balanced? Let's become shape detectives and uncover the secrets of regular polygons!",
+    "style": "thinking",
+    "ok": true
+  },
+  "story_0": {
+    "text": "On a school nature walk, Maya and her friend Arjun found a broken piece of honeycomb. Every single cell was a perfect hexagon — six equal sides, six equal angles, fitting together with no gaps at all. 'How do bees make every cell exactly the same?' Maya wondered. Their teacher smiled. 'That's a regular polygon, Maya — a shape where every side and every angle matches perfectly.' A regular polygon has all sides equal AND all angles equal.",
+    "style": "statement",
+    "ok": true
+  },
+  "story_1": {
+    "text": "Walking home, Arjun stopped at the corner. 'Look — a stop sign! It has 8 sides, all the same length.' Maya counted the angles too. 'And all 8 angles look identical! If it's regular, each angle must be exactly the same size.' She remembered: to find the total of all the interior angles, you split the shape into triangles from one corner. The interior angles of any polygon with n sides add up to (n − 2) × 180 degrees.",
+    "style": "statement",
+    "ok": true
+  },
+  "story_2": {
+    "text": "At the park, Maya spotted a pentagon-shaped flower bed — five equal sides and five equal angles. 'If the total of all the angles is 540 degrees,' she said, 'and there are 5 equal angles, then each one must be 540 divided by 5.' Arjun grinned. 'That's 108 degrees each! We just found the interior angle without even measuring it!' Each interior angle of a regular polygon = angle sum ÷ number of sides.",
+    "style": "statement",
+    "ok": true
+  },
+  "story_3": {
+    "text": "Back in class, their teacher showed a shortcut. 'Walk all the way around ANY regular polygon, turning the same amount at each corner. By the time you're back where you started, you've turned a full circle — 360 degrees, always!' Arjun tested it on a square: 360 divided by 4 corners equals a 90-degree turn at each one. It matched perfectly. The exterior angles of any polygon always add up to 360 degrees.",
+    "style": "statement",
+    "ok": true
+  },
+  "story_4": {
+    "text": "That evening, Maya and Arjun looked around with new eyes: the hexagonal honeycomb, the octagonal stop sign, the pentagon flower bed, even a twelve-sided coin in Arjun's pocket. 'Once you know the pattern,' Maya said, 'regular polygons show up everywhere — in nature, on the road, and even in your pocket!' Regular polygons balance sides, angles, and reasoning — and they are everywhere around us!",
+    "style": "statement",
+    "ok": true
+  },
+  "sim_0": {
+    "text": "Welcome to the Polygon Builder! Slide to change the number of sides and watch the regular polygon redraw itself instantly. See how the interior angle and exterior angle change as the shape grows more sides.",
+    "style": "instruction",
+    "ok": true
+  },
+  "sim_1": {
+    "text": "Welcome to the Triangle Slicer! Fan out diagonals from one vertex and watch the polygon split into triangles. Count the triangles to discover exactly why the interior angle sum formula works.",
+    "style": "instruction",
+    "ok": true
+  },
+  "sim_2": {
+    "text": "Welcome to the Regular Checker! Drag the sliders to change a shape's side lengths and angles. Test whether it counts as a true regular polygon, and see exactly which condition fails when it doesn't.",
+    "style": "instruction",
+    "ok": true
+  },
+  "sim_3": {
+    "text": "Welcome to the Exterior Angle Balance! Every regular polygon's exterior angles always add up to 360 degrees. Balance the scale by finding the missing angle to prove it for yourself.",
+    "style": "instruction",
+    "ok": true
+  },
+  "practice_intro": {
+    "text": "Time to practice! Pick a world, answer the questions, and use the hint button anytime you get stuck. Let's put your reasoning skills to the test!",
+    "style": "instruction",
+    "ok": true
+  },
+  "very_good": {
+    "text": "Excellent reasoning! That's exactly right!",
+    "style": "celebration",
+    "ok": true
+  },
+  "incorrect": {
+    "text": "Not quite — let's look at this one again.",
+    "style": "encouragement",
+    "ok": true
+  },
+  "practice_q_0_0": {
+    "text": "What makes a polygon a 'regular' polygon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_0": {
+    "text": "Hint: Think about BOTH the sides and the angles — a regular polygon needs both to match.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_1": {
+    "text": "True or False: A square is a regular polygon.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_1": {
+    "text": "Hint: Check: are all 4 sides equal? Are all 4 angles equal (90° each)?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_2": {
+    "text": "True or False: A rectangle that is not a square is a regular polygon.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_2": {
+    "text": "Hint: Look at the sides — are the long and short sides the same length?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_3": {
+    "text": "Which shape below is NOT regular even though all its angles are equal?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_3": {
+    "text": "Hint: Equal angles isn't enough — check whether the sides are equal too.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_4": {
+    "text": "An equilateral triangle has all sides equal. What must also be true for it to be a regular polygon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_4": {
+    "text": "Hint: In every triangle, if the sides are equal, what happens to the angles opposite them?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_5": {
+    "text": "True or False: Every equilateral triangle is also equiangular (60° each angle).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_5": {
+    "text": "Hint: This is a special property of triangles — equal sides always give equal angles.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_6": {
+    "text": "Which of these is a real-life example of a regular polygon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_6": {
+    "text": "Hint: Think of a shape where every side and every angle look identical.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_7": {
+    "text": "Priya says a regular polygon must always have equal sides, but the angles can be different. Is she correct?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_7": {
+    "text": "Hint: Recall the full definition: two conditions must BOTH be true.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_8": {
+    "text": "Which shape can NEVER be a regular polygon no matter how you draw it?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_8": {
+    "text": "Hint: Can you make all 4 sides of a rectangle equal without it becoming a square?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_0_9": {
+    "text": "How many conditions must a polygon satisfy to be called 'regular'?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_0_9": {
+    "text": "Hint: Equal sides... and what else?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_0": {
+    "text": "What is the name of a polygon with 5 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_0": {
+    "text": "Hint: Penta- means five.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_1": {
+    "text": "What is the name of a polygon with 8 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_1": {
+    "text": "Hint: Octo- means eight, like an octopus's 8 legs.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_2": {
+    "text": "What is the name of a polygon with 6 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_2": {
+    "text": "Hint: Hexa- means six.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_3": {
+    "text": "True or False: A polygon with 4 sides is always called a square.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_3": {
+    "text": "Hint: Think of rectangles, kites, and trapeziums — they all have 4 sides too.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_4": {
+    "text": "What is the name of a polygon with 10 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_4": {
+    "text": "Hint: Deca- means ten, like a decade of years.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_5": {
+    "text": "What is the name of a polygon with 9 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_5": {
+    "text": "Hint: Nona- means nine.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_6": {
+    "text": "What is the name of a polygon with 7 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_6": {
+    "text": "Hint: Hepta- means seven.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_7": {
+    "text": "A stop sign has 8 equal sides and 8 equal angles. What shape is it?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_7": {
+    "text": "Hint: Count the sides on a stop sign next time you see one!",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_8": {
+    "text": "What is the name of a polygon with 12 sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_8": {
+    "text": "Hint: Dodeca- means twelve, like the 12 months in a year.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_1_9": {
+    "text": "Which of these names does NOT match a polygon with the correct number of sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_1_9": {
+    "text": "Hint: Hepta- actually means seven, not nine.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_0": {
+    "text": "What is the formula for the sum of interior angles of a polygon with n sides?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_0": {
+    "text": "Hint: Think about how many triangles you can split the polygon into from one vertex.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_1": {
+    "text": "Find the sum of interior angles of a pentagon (5 sides).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_1": {
+    "text": "Hint: Use (n − 2) × 180 with n = 5.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_2": {
+    "text": "Find the sum of interior angles of a hexagon (6 sides).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_2": {
+    "text": "Hint: (6 − 2) × 180 = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_3": {
+    "text": "Find the sum of interior angles of a quadrilateral (4 sides).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_3": {
+    "text": "Hint: (4 − 2) × 180 = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_4": {
+    "text": "True or False: The sum of the interior angles of any triangle is 180°.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_4": {
+    "text": "Hint: This is the simplest case: (3 − 2) × 180.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_5": {
+    "text": "Find the sum of interior angles of an octagon (8 sides).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_5": {
+    "text": "Hint: (8 − 2) × 180 = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_6": {
+    "text": "A polygon has an interior angle sum of 1260°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_6": {
+    "text": "Hint: Set (n − 2) × 180 = 1260 and solve for n.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_7": {
+    "text": "Find the sum of interior angles of a decagon (10 sides).",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_7": {
+    "text": "Hint: (10 − 2) × 180 = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_8": {
+    "text": "True or False: The interior angle sum formula (n − 2) × 180 works for BOTH regular and irregular polygons.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_8": {
+    "text": "Hint: The formula only depends on the number of sides, not whether the shape is regular.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_2_9": {
+    "text": "A quadrilateral has three angles measuring 80°, 95°, and 100°. What is the fourth angle?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_2_9": {
+    "text": "Hint: All four angles must add up to 360° — subtract the three you know.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_0": {
+    "text": "What is the measure of each interior angle of a regular hexagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_0": {
+    "text": "Hint: Divide the interior angle sum (720°) by 6.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_1": {
+    "text": "What is the measure of each interior angle of a regular pentagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_1": {
+    "text": "Hint: Divide 540° by 5.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_2": {
+    "text": "What is the measure of each interior angle of an equilateral triangle?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_2": {
+    "text": "Hint: Divide 180° by 3.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_3": {
+    "text": "What is the measure of each interior angle of a square?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_3": {
+    "text": "Hint: A square's angles are all right angles.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_4": {
+    "text": "What is the measure of each interior angle of a regular octagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_4": {
+    "text": "Hint: Divide 1080° by 8.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_5": {
+    "text": "What is the measure of each interior angle of a regular decagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_5": {
+    "text": "Hint: Divide 1440° by 10.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_6": {
+    "text": "What is the measure of each interior angle of a regular nonagon (9 sides)?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_6": {
+    "text": "Hint: Divide 1260° by 9.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_7": {
+    "text": "True or False: As the number of sides of a regular polygon increases, each interior angle gets larger.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_7": {
+    "text": "Hint: Compare a triangle's 60° angle to a decagon's 144° angle.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_8": {
+    "text": "A regular polygon has each interior angle equal to 150°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_8": {
+    "text": "Hint: Set n × 150 equal to (n − 2) × 180 and solve for n.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_3_9": {
+    "text": "Which regular polygon has interior angles closest to (but less than) 180°?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_3_9": {
+    "text": "Hint: As a regular polygon gets more sides, it starts to look more like a circle.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_0": {
+    "text": "What is the sum of the exterior angles of ANY convex polygon, one at each vertex?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_0": {
+    "text": "Hint: This is true no matter how many sides the polygon has!",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_1": {
+    "text": "What is the exterior angle of a regular hexagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_1": {
+    "text": "Hint: Divide 360° by 6.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_2": {
+    "text": "What is the exterior angle of a regular pentagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_2": {
+    "text": "Hint: Divide 360° by 5.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_3": {
+    "text": "What is the exterior angle of an equilateral triangle?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_3": {
+    "text": "Hint: Divide 360° by 3.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_4": {
+    "text": "What is the exterior angle of a square?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_4": {
+    "text": "Hint: Divide 360° by 4.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_5": {
+    "text": "True or False: Interior angle + exterior angle at the same vertex always add up to 180°.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_5": {
+    "text": "Hint: They form a straight line together.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_6": {
+    "text": "The exterior angle of a regular polygon is 40°. What is its interior angle?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_6": {
+    "text": "Hint: 180° − 40° = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_7": {
+    "text": "What is the exterior angle of a regular decagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_7": {
+    "text": "Hint: Divide 360° by 10.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_8": {
+    "text": "What is the exterior angle of a regular nonagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_8": {
+    "text": "Hint: Divide 360° by 9.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_4_9": {
+    "text": "A regular polygon has an exterior angle of 45°. What is its interior angle?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_4_9": {
+    "text": "Hint: 180° − 45° = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_0": {
+    "text": "A regular polygon has an exterior angle of 24°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_0": {
+    "text": "Hint: Divide 360° by the exterior angle: 360 ÷ 24.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_1": {
+    "text": "A regular polygon has an exterior angle of 20°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_1": {
+    "text": "Hint: Divide 360° by 20°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_2": {
+    "text": "A regular polygon has each interior angle equal to 140°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_2": {
+    "text": "Hint: Find the exterior angle first: 180° − 140° = 40°, then divide 360° by that.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_3": {
+    "text": "A regular polygon has each interior angle equal to 144°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_3": {
+    "text": "Hint: Exterior angle = 180° − 144° = 36°. Now divide 360° by 36°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_4": {
+    "text": "The sum of the interior angles of a regular polygon is 1800°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_4": {
+    "text": "Hint: Solve (n − 2) × 180 = 1800 for n.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_5": {
+    "text": "A regular polygon has an exterior angle of 90°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_5": {
+    "text": "Hint: Divide 360° by 90°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_6": {
+    "text": "A regular polygon has an exterior angle of 30°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_6": {
+    "text": "Hint: Divide 360° by 30°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_7": {
+    "text": "True or False: A regular polygon can have an exterior angle of 50°, since 360 ÷ 50 gives a whole number of sides.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_7": {
+    "text": "Hint: Check: does 360 divide evenly by 50?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_8": {
+    "text": "A regular polygon has each interior angle equal to 108°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_8": {
+    "text": "Hint: Exterior angle = 180° − 108° = 72°. Divide 360° by 72°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_5_9": {
+    "text": "Rahul says: 'If a regular polygon's exterior angle is 12°, it must have 30 sides.' Is he correct?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_5_9": {
+    "text": "Hint: Check his division: 360 ÷ 12.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_0": {
+    "text": "If you draw all the diagonals from ONE vertex of a hexagon, how many triangles are formed?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_0": {
+    "text": "Hint: Triangles from one vertex = number of sides − 2.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_1": {
+    "text": "Why does triangulating a polygon from one vertex help us find the interior angle sum?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_1": {
+    "text": "Hint: What do you know about the angle sum of a single triangle?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_2": {
+    "text": "A pentagon is split into triangles from one vertex. How many triangles are formed, and what is the total angle sum?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_2": {
+    "text": "Hint: Triangles = 5 − 2 = 3. Multiply by 180° each.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_3": {
+    "text": "How many diagonals can be drawn from a single vertex of an octagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_3": {
+    "text": "Hint: From one vertex, you can connect to every OTHER vertex except itself and its two neighbours: n − 3.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_4": {
+    "text": "What is the total number of diagonals in a hexagon (using all vertices)?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_4": {
+    "text": "Hint: Use the formula n(n − 3) ÷ 2 with n = 6.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_5": {
+    "text": "True or False: A triangle (3 sides) has zero diagonals.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_5": {
+    "text": "Hint: Every vertex of a triangle is already connected to every other vertex by a side.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_6": {
+    "text": "What is the total number of diagonals in a decagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_6": {
+    "text": "Hint: Use n(n − 3) ÷ 2 with n = 10.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_7": {
+    "text": "Triangulating a polygon with n sides from one vertex always produces how many triangles?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_7": {
+    "text": "Hint: Check it for a quadrilateral: 2 triangles, and 4 − 2 = 2.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_8": {
+    "text": "A polygon is split into 6 triangles by drawing diagonals from one vertex. How many sides does the polygon have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_8": {
+    "text": "Hint: Number of triangles = n − 2, so n = triangles + 2.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_6_9": {
+    "text": "Why can't you draw a diagonal to a vertex's own two neighbouring vertices?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_6_9": {
+    "text": "Hint: A diagonal connects two vertices that are NOT already joined by a side.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_0": {
+    "text": "A shape has 4 equal sides but its angles are 80°, 100°, 80°, 100°. Is it a regular polygon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_0": {
+    "text": "Hint: Remember: BOTH sides and angles must be equal.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_1": {
+    "text": "A shape has all equal angles of 120° but its sides are 3cm, 5cm, 3cm, 5cm, 3cm, 5cm. Is it a regular hexagon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_1": {
+    "text": "Hint: Check both conditions — this one fails on sides.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_2": {
+    "text": "True or False: Every square is a regular polygon, but not every rhombus is.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_2": {
+    "text": "Hint: Compare a rhombus's angles — are they always 90°?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_3": {
+    "text": "Which statement correctly explains why a regular pentagon looks 'balanced'?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_3": {
+    "text": "Hint: Think about symmetry — congruent parts repeat evenly around the shape.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_4": {
+    "text": "A student claims: 'Any polygon with all equal angles must also have all equal sides.' Which shape proves this wrong?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_4": {
+    "text": "Hint: Think of a 4-sided shape with four 90° angles but different side lengths.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_5": {
+    "text": "True or False: A regular polygon always has rotational and line symmetry.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_5": {
+    "text": "Hint: Picture spinning a regular hexagon — does it look the same at several angles?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_6": {
+    "text": "Which of these is NOT a valid reason a shape fails to be a regular polygon?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_6": {
+    "text": "Hint: Having straight sides is actually required for something to be called a polygon at all.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_7": {
+    "text": "A regular polygon is folded exactly through its center along a line of symmetry. What can you say about the two halves?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_7": {
+    "text": "Hint: Think about the symmetry lines of a regular polygon.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_8": {
+    "text": "Why is an equilateral triangle automatically a regular polygon, while an isosceles triangle is not?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_8": {
+    "text": "Hint: Compare how many sides must match in each type of triangle.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_7_9": {
+    "text": "A hexagon has 6 equal sides but is 'squashed' so its angles are not all equal. Is it regular?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_7_9": {
+    "text": "Hint: Equal sides alone are not enough.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_0": {
+    "text": "Which regular polygon is used in the shape of a honeycomb cell?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_0": {
+    "text": "Hint: 6-sided shape — bees are famous for building with it!",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_1": {
+    "text": "Which of these regular polygons CAN tessellate (tile a flat surface with no gaps) on its own?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_1": {
+    "text": "Hint: Check: does its interior angle divide evenly into 360°? 120° does!",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_2": {
+    "text": "True or False: A regular pentagon can tessellate a flat surface on its own, with no gaps.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_2": {
+    "text": "Hint: Divide 360° by the pentagon's interior angle (108°) — is it a whole number?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_3": {
+    "text": "Only three regular polygons can tessellate a plane by themselves. Which set is correct?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_3": {
+    "text": "Hint: Their interior angles are 60°, 90°, and 120° — each divides evenly into 360°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_4": {
+    "text": "A stop sign is shaped like a regular octagon. What is the measure of each of its interior angles?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_4": {
+    "text": "Hint: Recall: regular octagon interior angle = 135°.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_5": {
+    "text": "Why can't a regular pentagon tile a floor with no gaps, while a square can?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_5": {
+    "text": "Hint: Divide 360° by each shape's interior angle and compare.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_6": {
+    "text": "Soccer balls are traditionally stitched from which two polygon shapes?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_6": {
+    "text": "Hint: Look closely at the black and white patches on a classic soccer ball.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_7": {
+    "text": "A road warning sign is often shaped like a regular polygon with 3 sides. What shape is it?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_7": {
+    "text": "Hint: Think of a yield / give-way sign.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_8": {
+    "text": "True or False: Regular hexagons appear in honeycombs partly because they tile efficiently with no wasted space.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_8": {
+    "text": "Hint: Efficient tiling means bees use less wax for the same storage space.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_8_9": {
+    "text": "A floor tiler wants to use only ONE type of regular polygon tile with no gaps or overlaps. Which is a valid choice?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_8_9": {
+    "text": "Hint: Only equilateral triangles, squares, and regular hexagons can do this alone.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_0": {
+    "text": "A regular polygon has 15 sides. What is the sum of its interior angles?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_0": {
+    "text": "Hint: (15 − 2) × 180 = ?",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_1": {
+    "text": "A regular polygon has 15 sides. What is the measure of EACH interior angle (to the nearest whole degree)?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_1": {
+    "text": "Hint: Divide the interior angle sum by 15.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_2": {
+    "text": "A regular polygon has an exterior angle of 18°. What is the sum of its interior angles?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_2": {
+    "text": "Hint: First find n (360 ÷ 18), then use (n − 2) × 180.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_3": {
+    "text": "A logo uses a regular polygon where each interior angle is exactly double the exterior angle. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_3": {
+    "text": "Hint: Interior + exterior = 180°, and interior = 2 × exterior. Solve for the exterior angle first.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_4": {
+    "text": "A regular polygon's interior angle sum is 3600°. How many sides does it have?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_4": {
+    "text": "Hint: Divide 3600° by 180°, then add 2.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_5": {
+    "text": "True or False: A regular polygon can have an interior angle of exactly 100°.",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_5": {
+    "text": "Hint: Find the exterior angle first (180° − 100°), then check if 360° divides evenly by it.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_6": {
+    "text": "A regular polygon has an interior angle sum of 1440°, and each interior angle measures 144°. What shape is it?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_6": {
+    "text": "Hint: Divide 1440° by 180°, then add 2 to find n.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_7": {
+    "text": "A field is shaped like a regular polygon with an exterior angle of 40°. How many fence posts are needed, one at each vertex?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_7": {
+    "text": "Hint: Number of vertices = number of sides = 360° ÷ exterior angle.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_8": {
+    "text": "Compare a regular octagon's interior angle to a regular decagon's. Which is larger, and by how much?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_8": {
+    "text": "Hint: Interior angle 135° (octagon) vs 144° (decagon) — subtract to find the difference.",
+    "style": "thinking",
+    "ok": true
+  },
+  "practice_q_9_9": {
+    "text": "Challenge: a regular polygon has the SAME number of diagonals as sides. Which polygon is it?",
+    "style": "question",
+    "ok": true
+  },
+  "practice_hint_9_9": {
+    "text": "Hint: Set n(n − 3) ÷ 2 equal to n and solve for n.",
+    "style": "thinking",
+    "ok": true
+  }
+}
