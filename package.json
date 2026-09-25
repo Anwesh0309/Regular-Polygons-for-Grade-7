@@ -1,0 +1,13 @@
+{
+  "name": "regular-polygons-g7",
+  "private": true,
+  "workspaces": [
+    "polygon-g7"
+  ],
+  "scripts": {
+    "dev": "npm --prefix polygon-g7 run dev",
+    "build": "npm --prefix polygon-g7 run build",
+    "preview": "npm --prefix polygon-g7 run preview",
+    "lint": "npm --prefix polygon-g7 run lint"
+  }
+}
