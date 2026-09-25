@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad0" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E1B4B" />
+      <stop offset="100%" stop-color="#31103F" />
+    </linearGradient>
+
+    <!-- Honeycomb Glow Gradient -->
+    <linearGradient id="honeyGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <radialGradient id="sunGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FDE047" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#FDE047" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Drop Shadow Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad0)" />
+  <circle cx="400" cy="220" r="300" fill="url(#sunGlow)" />
+
+  <!-- Nature / Leaves Decorative Background -->
+  <path d="M 0,500 Q 150,420 300,500 Z" fill="#064E3B" opacity="0.6" />
+  <path d="M 500,500 Q 650,400 800,500 Z" fill="#065F46" opacity="0.5" />
+
+  <!-- Background Honeycomb Grid Pattern -->
+  <g opacity="0.15" stroke="#FBBF24" stroke-width="1.5" fill="none">
+    <!-- Row 1 -->
+    <polygon points="100,60 140,60 160,95 140,130 100,130 80,95" />
+    <polygon points="160,60 200,60 220,95 200,130 160,130 140,95" />
+    <polygon points="220,60 260,60 280,95 260,130 220,130 200,95" />
+    <polygon points="540,60 580,60 600,95 580,130 540,130 520,95" />
+    <polygon points="600,60 640,60 660,95 640,130 600,130 580,95" />
+    <!-- Row 2 -->
+    <polygon points="70,112 110,112 130,147 110,182 70,182 50,147" />
+    <polygon points="630,112 670,112 690,147 670,182 630,182 610,147" />
+  </g>
+
+  <!-- Central Highlight: Main Honeycomb Structure -->
+  <g filter="url(#shadow)" transform="translate(400, 210)">
+    <!-- Connected Hexagon Cluster -->
+    <!-- Center Hexagon -->
+    <polygon points="0,-90 78,-45 78,45 0,90 -78,45 -78,-45" fill="url(#honeyGlow)" stroke="#FFF" stroke-width="3" opacity="0.9" />
+    <!-- Neighbor Hexagons -->
+    <polygon points="0,-90 78,-45 156,-90 156,-180 78,-225 0,-180" fill="#F59E0B" opacity="0.35" stroke="#FBBF24" stroke-width="2" transform="translate(0, -90)" />
+    <polygon points="78,45 156,0 234,45 234,135 156,180 78,135" fill="#F59E0B" opacity="0.35" stroke="#FBBF24" stroke-width="2" transform="translate(0, 0)" />
+    <polygon points="-78,45 0,90 0,180 -78,225 -156,180 -156,90" fill="#F59E0B" opacity="0.35" stroke="#FBBF24" stroke-width="2" opacity="0.4" />
+    <polygon points="-156,-45 -78,-90 0,-45 0,45 -78,90 -156,45" fill="#F59E0B" opacity="0.35" stroke="#FBBF24" stroke-width="2" transform="translate(-78, -45)" />
+
+    <!-- Detailed Annotations on Main Hexagon -->
+    <!-- Vertex Points -->
+    <circle cx="0" cy="-90" r="6" fill="#38BDF8" />
+    <circle cx="78" cy="-45" r="6" fill="#38BDF8" />
+    <circle cx="78" cy="45" r="6" fill="#38BDF8" />
+    <circle cx="0" cy="90" r="6" fill="#38BDF8" />
+    <circle cx="-78" cy="45" r="6" fill="#38BDF8" />
+    <circle cx="-78" cy="-45" r="6" fill="#38BDF8" />
+
+    <!-- Angle Arcs (120°) -->
+    <path d="M -20,-78 A 25 25 0 0 0 20,-78" fill="none" stroke="#38BDF8" stroke-width="2.5" />
+    <text x="0" y="-55" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">120°</text>
+
+    <!-- Side Equality Tick Marks -->
+    <!-- Top side -->
+    <line x1="34" y1="-72" x2="44" y2="-62" stroke="#FFF" stroke-width="2.5" />
+    <!-- Right top side -->
+    <line x1="73" y1="-5" x2="83" y2="5" stroke="#FFF" stroke-width="2.5" />
+    <!-- Bottom right side -->
+    <line x1="44" y1="62" x2="34" y2="72" stroke="#FFF" stroke-width="2.5" />
+    <!-- Bottom left side -->
+    <line x1="-34" y1="72" x2="-44" y2="62" stroke="#FFF" stroke-width="2.5" />
+    <!-- Left bottom side -->
+    <line x1="-83" y1="5" x2="-73" y2="-5" stroke="#FFF" stroke-width="2.5" />
+    <!-- Top left side -->
+    <line x1="-44" y1="-62" x2="-34" y2="-72" stroke="#FFF" stroke-width="2.5" />
+
+    <!-- Center Label -->
+    <rect x="-60" y="-18" width="120" height="36" rx="8" fill="#0F172A" opacity="0.85" />
+    <text x="0" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#FBBF24" text-anchor="middle">HEXAGON</text>
+  </g>
+
+  <!-- Cute Bee Character -->
+  <g transform="translate(590, 110) rotate(-15)" filter="url(#glow)">
+    <!-- Wings -->
+    <ellipse cx="-10" cy="-18" rx="14" ry="22" fill="#E0F2FE" opacity="0.8" transform="rotate(-20 -10 -18)" />
+    <ellipse cx="10" cy="-18" rx="14" ry="22" fill="#E0F2FE" opacity="0.8" transform="rotate(20 10 -18)" />
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="26" ry="20" fill="#FBBF24" stroke="#78350F" stroke-width="2" />
+    <!-- Stripes -->
+    <path d="M -8,-19 Q 0,-15 8,-19 L 8,19 Q 0,15 -8,19 Z" fill="#451A03" />
+    <!-- Eyes -->
+    <circle cx="-14" cy="-4" r="4" fill="#000" />
+    <circle cx="-15" cy="-5" r="1.5" fill="#FFF" />
+    <!-- Smile -->
+    <path d="M -18,4 Q -14,10 -10,4" stroke="#451A03" stroke-width="2" fill="none" />
+    <!-- Stinger -->
+    <polygon points="26,-3 34,0 26,3" fill="#451A03" />
+  </g>
+
+  <!-- Student Character Avatars (Maya & Arjun Silhouette/Illustrated) -->
+  <!-- Maya (Left) -->
+  <g transform="translate(110, 310)" filter="url(#shadow)">
+    <!-- Head/Hair -->
+    <circle cx="50" cy="40" r="28" fill="#334155" />
+    <path d="M 22,40 Q 50,10 78,40 Q 50,25 22,40 Z" fill="#1E293B" />
+    <!-- Face -->
+    <circle cx="50" cy="45" r="22" fill="#FDBA74" />
+    <circle cx="43" cy="42" r="3" fill="#1E293B" />
+    <circle cx="57" cy="42" r="3" fill="#1E293B" />
+    <path d="M 45,53 Q 50,58 55,53" stroke="#9A3412" stroke-width="2" fill="none" />
+    <!-- Body/Shirt -->
+    <path d="M 25,110 L 35,67 Q 50,65 65,67 L 75,110 Z" fill="#EC4899" />
+    <!-- Magnifying Glass held up -->
+    <circle cx="95" cy="35" r="22" fill="none" stroke="#F59E0B" stroke-width="5" />
+    <circle cx="95" cy="35" r="19" fill="#38BDF8" opacity="0.3" />
+    <line x1="82" y1="50" x2="68" y2="65" stroke="#78350F" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Arjun (Right) -->
+  <g transform="translate(640, 310)" filter="url(#shadow)">
+    <!-- Head/Hair -->
+    <path d="M 25,25 Q 50,10 75,25 Q 70,10 50,8 Q 30,10 25,25 Z" fill="#0F172A" />
+    <!-- Face -->
+    <circle cx="50" cy="45" r="22" fill="#FED7AA" />
+    <circle cx="43" cy="42" r="3" fill="#0F172A" />
+    <circle cx="57" cy="42" r="3" fill="#0F172A" />
+    <path d="M 44,53 Q 50,59 56,53" stroke="#9A3412" stroke-width="2" fill="none" />
+    <!-- Body/Shirt -->
+    <path d="M 20,110 L 32,67 Q 50,65 68,67 L 80,110 Z" fill="#3B82F6" />
+  </g>
+
+  <!-- Bottom Informational Banner Card -->
+  <g transform="translate(400, 445)" filter="url(#shadow)">
+    <rect x="-270" y="-30" width="540" height="56" rx="28" fill="#1E1B4B" stroke="#F59E0B" stroke-width="2" />
+    <text x="0" y="-6" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FBBF24" text-anchor="middle">✨ RULE 1 OF REGULAR POLYGONS ✨</text>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#F3F4F6" text-anchor="middle">All 6 sides are EQUAL &amp; all 6 interior angles are EQUAL (120°)</text>
+  </g>
+</svg>

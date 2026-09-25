@@ -20,6 +20,7 @@ export const STORY_SLIDES = [
   {
     n: 6, color: '#F59E0B',
     title: 'The Honeycomb Mystery',
+    image: '/images/story_slide_0.svg',
     text: "On a school nature walk, Maya and her friend Arjun found a broken piece of honeycomb. Every single cell was a perfect hexagon — six equal sides, six equal angles, fitting together with no gaps at all. 'How do bees make every cell exactly the same?' Maya wondered. Their teacher smiled. 'That's a regular polygon, Maya — a shape where every side and every angle matches perfectly.'",
     highlight: '"A regular polygon has all sides equal AND all angles equal."',
     mascotText: "Equal sides, equal angles! 🔷",
@@ -27,6 +28,7 @@ export const STORY_SLIDES = [
   {
     n: 8, color: '#EC4899',
     title: 'The Stop Sign Puzzle',
+    image: '/images/story_slide_1.svg',
     text: "Walking home, Arjun stopped at the corner. 'Look — a stop sign! It has 8 sides, all the same length.' Maya counted the angles too. 'And all 8 angles look identical! If it's regular, each angle must be exactly the same size.' She remembered: to find the total of all the interior angles, you split the shape into triangles from one corner.",
     highlight: '"The interior angles of any polygon with n sides add up to (n − 2) × 180 degrees."',
     mascotText: "Splitting shapes into triangles! ➗",
@@ -34,6 +36,7 @@ export const STORY_SLIDES = [
   {
     n: 5, color: '#7C3AED',
     title: "The Pentagon in the Park",
+    image: '/images/story_slide_2.svg',
     text: "At the park, Maya spotted a pentagon-shaped flower bed — five equal sides and five equal angles. 'If the total of all the angles is 540 degrees,' she said, 'and there are 5 equal angles, then each one must be 540 divided by 5.' Arjun grinned. 'That's 108 degrees each! We just found the interior angle without even measuring it!'",
     highlight: '"Each interior angle of a regular polygon = angle sum ÷ number of sides."',
     mascotText: "108 degrees, every time! 📐",
@@ -41,6 +44,7 @@ export const STORY_SLIDES = [
   {
     n: 4, color: '#10B981',
     title: 'The Exterior Angle Trick',
+    image: '/images/story_slide_3.svg',
     text: "Back in class, their teacher showed a shortcut. 'Walk all the way around ANY regular polygon, turning the same amount at each corner. By the time you're back where you started, you've turned a full circle — 360 degrees, always!' Arjun tested it on a square: 360 divided by 4 corners equals a 90-degree turn at each one. It matched perfectly.",
     highlight: '"The exterior angles of any polygon always add up to 360 degrees."',
     mascotText: "A full circle, every time! 🔄",
@@ -48,6 +52,7 @@ export const STORY_SLIDES = [
   {
     n: 12, color: '#4F46E5',
     title: 'Regular Polygons Everywhere',
+    image: '/images/story_slide_4.svg',
     text: "That evening, Maya and Arjun looked around with new eyes: the hexagonal honeycomb, the octagonal stop sign, the pentagon flower bed, even a twelve-sided coin in Arjun's pocket. 'Once you know the pattern,' Maya said, 'regular polygons show up everywhere — in nature, on the road, and even in your pocket!'",
     highlight: '"Regular polygons balance sides, angles, and reasoning — and they are everywhere around us!"',
     mascotText: "Shape detectives, complete! 🚀",

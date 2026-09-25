@@ -30,3 +30,4 @@ node_modules/
 .vercel/
 variables-module/
 reference_repo/
+.vercel

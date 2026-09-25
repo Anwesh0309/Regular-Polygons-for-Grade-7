@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient: Cosmic Neon Discovery Gallery -->
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="35%" stop-color="#1E1B4B" />
+      <stop offset="70%" stop-color="#31103F" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Neon Metallic Gold Gradient for Coin & Accents -->
+    <linearGradient id="goldCoin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <radialGradient id="climaxGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="shadow4" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad4)" />
+  <circle cx="400" cy="230" r="320" fill="url(#climaxGlow)" />
+
+  <!-- Floating Sparkles / Particles -->
+  <g fill="#FFF" opacity="0.6">
+    <circle cx="120" cy="80" r="2" />
+    <circle cx="220" cy="120" r="3" />
+    <circle cx="680" cy="90" r="2.5" />
+    <circle cx="730" cy="150" r="2" />
+    <circle cx="150" cy="380" r="3" />
+    <circle cx="650" cy="370" r="2" />
+    <polygon points="400,30 403,38 411,41 403,44 400,52 397,44 389,41 397,38" fill="#FDE047" />
+    <polygon points="180,240 182,246 188,248 182,250 180,256 178,250 172,248 178,246" fill="#38BDF8" />
+    <polygon points="620,240 622,246 628,248 622,250 620,256 618,250 612,248 618,246" fill="#EC4899" />
+  </g>
+
+  <!-- GALLERY OF FLOATING REGULAR POLYGONS AROUND CENTER -->
+
+  <!-- 1. Equilateral Triangle (Top Left n=3) -->
+  <g transform="translate(140, 110)" filter="url(#shadow4)">
+    <polygon points="0,-45 39,23 -39,23" fill="#EC4899" opacity="0.8" stroke="#FFF" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="3" fill="#FFF" />
+    <text x="0" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#EC4899" text-anchor="middle">Triangle (n=3)</text>
+  </g>
+
+  <!-- 2. Square (Top Right n=4) -->
+  <g transform="translate(660, 110)" filter="url(#shadow4)">
+    <rect x="-35" y="-35" width="70" height="70" rx="6" fill="#10B981" opacity="0.8" stroke="#FFF" stroke-width="2.5" />
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#10B981" text-anchor="middle">Square (n=4)</text>
+  </g>
+
+  <!-- 3. Regular Pentagon (Middle Left n=5) -->
+  <g transform="translate(100, 240)" filter="url(#shadow4)">
+    <polygon points="0,-40 38,-12 24,32 -24,32 -38,-12" fill="#7C3AED" opacity="0.8" stroke="#FFF" stroke-width="2.5" />
+    <text x="0" y="48" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#C084FC" text-anchor="middle">Pentagon (n=5)</text>
+  </g>
+
+  <!-- 4. Regular Hexagon Honeycomb Cell (Middle Right n=6) -->
+  <g transform="translate(700, 240)" filter="url(#shadow4)">
+    <polygon points="0,-42 36,-21 36,21 0,42 -36,21 -36,-21" fill="#F59E0B" opacity="0.8" stroke="#FFF" stroke-width="2.5" />
+    <text x="0" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FBBF24" text-anchor="middle">Hexagon (n=6)</text>
+  </g>
+
+  <!-- 5. Regular Octagon Stop Sign (Bottom Left n=8) -->
+  <g transform="translate(170, 360)" filter="url(#shadow4)">
+    <polygon points="-15,-36 15,-36 36,-15 36,15 15,36 -15,36 -36,15 -36,-15" fill="#EF4444" opacity="0.85" stroke="#FFF" stroke-width="2.5" />
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#F87171" text-anchor="middle">Octagon (n=8)</text>
+  </g>
+
+  <!-- 6. 12-Sided Dodecagonal Coin (Bottom Right n=12) -->
+  <g transform="translate(630, 360)" filter="url(#shadow4)">
+    <!-- 12-sided polygon approximation -->
+    <polygon points="0,-38 10,-37 28,-26 36,-12 38,0 36,12 28,26 10,37 0,38 -10,37 -28,26 -36,12 -38,0 -36,-12 -28,-26 -10,-37" fill="url(#goldCoin)" stroke="#FFF" stroke-width="2.5" />
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#78350F" stroke-width="2" stroke-dasharray="3 3" />
+    <text x="0" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="900" fill="#78350F" text-anchor="middle">12</text>
+    <text x="0" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#FBBF24" text-anchor="middle">Dodecagon (n=12)</text>
+  </g>
+
+  <!-- CENTERPIECE: SHAPE DETECTIVES MAYA & ARJUN IN CELEBRATION -->
+  <g transform="translate(400, 240)" filter="url(#shadow4)">
+    <!-- Central Shield Badge -->
+    <path d="M 0,-130 L 110,-70 L 110,40 Q 110,120 0,150 Q -110,120 -110,40 L -110,-70 Z" fill="#0F172A" stroke="#4F46E5" stroke-width="4" opacity="0.95" />
+
+    <!-- Badge Title -->
+    <text x="0" y="-85" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="900" fill="#818CF8" text-anchor="middle">MASTER SHAPE DETECTIVES</text>
+
+    <!-- Maya Avatar (Left inside badge) -->
+    <g transform="translate(-45, 10)">
+      <circle cx="0" cy="-30" r="22" fill="#334155" />
+      <circle cx="0" cy="-26" r="18" fill="#FDBA74" />
+      <circle cx="-6" cy="-28" r="2.5" fill="#1E293B" />
+      <circle cx="6" cy="-28" r="2.5" fill="#1E293B" />
+      <path d="M -6,-18 Q 0,-13 6,-18" stroke="#9A3412" stroke-width="2" fill="none" />
+      <path d="M -22,35 L -14,0 Q 0,-2 14,0 L 22,35 Z" fill="#EC4899" />
+    </g>
+
+    <!-- Arjun Avatar (Right inside badge) -->
+    <g transform="translate(45, 10)">
+      <circle cx="0" cy="-26" r="18" fill="#FED7AA" />
+      <path d="M -18,-40 Q 0,-52 18,-40 Q 12,-52 0,-54 Q -12,-52 -18,-40 Z" fill="#0F172A" />
+      <circle cx="-6" cy="-28" r="2.5" fill="#0F172A" />
+      <circle cx="6" cy="-28" r="2.5" fill="#0F172A" />
+      <path d="M -6,-18 Q 0,-12 6,-18" stroke="#9A3412" stroke-width="2" fill="none" />
+      <path d="M -22,35 L -14,0 Q 0,-2 14,0 L 22,35 Z" fill="#3B82F6" />
+    </g>
+
+    <!-- Shared Large Magnifying Glass -->
+    <circle cx="0" cy="-30" r="28" fill="none" stroke="#F59E0B" stroke-width="5" filter="url(#neonGlow)" />
+    <circle cx="0" cy="-30" r="24" fill="#38BDF8" opacity="0.25" />
+    <line x1="0" y1="-2" x2="0" y2="40" stroke="#78350F" stroke-width="7" stroke-linecap="round" />
+
+    <text x="0" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#FDE047" text-anchor="middle">EVERYWHERE IN OUR WORLD!</text>
+  </g>
+
+  <!-- Bottom Informational Banner Card -->
+  <g transform="translate(400, 445)" filter="url(#shadow4)">
+    <rect x="-290" y="-30" width="580" height="56" rx="28" fill="#1E1B4B" stroke="#818CF8" stroke-width="2" />
+    <text x="0" y="-6" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="800" fill="#818CF8" text-anchor="middle">🚀 CONGRATULATIONS, SHAPE DETECTIVES! 🚀</text>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#F3F4F6" text-anchor="middle">Regular polygons balance equal sides, equal angles, and pure geometry!</text>
+  </g>
+</svg>

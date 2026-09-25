@@ -45,12 +45,28 @@ export default function StoryPhase({ onComplete }) {
       </div>
       <div className={`story-card story-card-flex ${anim ? 'flipping' : ''}`}>
         <div className="story-image-section">
-          <div
-            className="story-image"
-            style={{ border: '4px solid rgba(255,255,255,0.12)', background: 'rgba(0,0,0,0.15)', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
-          >
-            <PolygonArt n={s.n} color={s.color} glow={`${s.color}55`} label={`${s.n} sides`} sublabel="regular polygon" />
-          </div>
+          {s.image ? (
+            <img
+              src={s.image}
+              alt={s.title}
+              className="story-image"
+              style={{
+                borderRadius: 16,
+                border: '3px solid rgba(255,255,255,0.15)',
+                boxShadow: '0 12px 30px rgba(0,0,0,0.4)',
+                width: '100%',
+                maxHeight: '460px',
+                objectFit: 'contain',
+              }}
+            />
+          ) : (
+            <div
+              className="story-image"
+              style={{ border: '4px solid rgba(255,255,255,0.12)', background: 'rgba(0,0,0,0.15)', borderRadius: 16, display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+            >
+              <PolygonArt n={s.n} color={s.color} glow={`${s.color}55`} label={`${s.n} sides`} sublabel="regular polygon" />
+            </div>
+          )}
         </div>
         <div className="story-text-section">
           <h2 className="story-title" style={{ fontSize: '2.4rem', fontWeight: 'bold', margin: '0 0 16px 0' }}>{s.title}</h2>
